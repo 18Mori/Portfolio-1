@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding:0px;
+  
+  font-family: Arial, sans-serif;
+  color: #181818;
+  background-color: #ffffff;
+}
+header{
+  background-color: #ffffff;
+  padding: 1.5px;
+}
+footer{
+  background-color: #ffffff; 
+}
+nav{
+  
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+}  
+ul{
+  list-style-type: none;
+  background-color: #ffffff;
+}
+li{
+  background-color: #ffffff;
+}
+
+nav ul{
+  display: flex;
+}
+  
+header nav ul li a{
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fffffff8;
+  border-radius: 30px;
+  margin-right: 10px;
+  background-color: #0b8686fa;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer nav ul li a{
+  display: inline-flex;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #5f898cc5;
+  background: none;
+  border: none;
+  font-size: 13.3px;
+}
+header nav{
+  border-radius: 2px;
+  box-shadow: 0 10px 10px rgba(86, 85, 85, 0.177);
+}
+footer nav{
+  border-radius: 2px;
+  border-top: solid 1px rgba(199, 202, 202, 0.336);
+}
+header a{
+  display: inline-block;
+  padding: 10px 20px;
+}
+a{
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+header b{
+  background: none;
+  color: #ffffff;
+}
+html{
+  box-shadow: 0 10px 10px rgba(43, 43, 43, 0.177);
+  background-color: #649d8a;
+  border-color: #000000;
+  margin: 1.5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+a.home:hover{
+  background-color: #0b8686e2;
+  transition: 0.4s;
+  color: #00000094;
+  }
+  a.home:active{
+    background-color: #000000e2;
+    transition: 0.4s;
+  color: white;
+  }
+  a.about:hover{
+    background-color: #0b8686e2;
+    transition: 0.4s;
+  color: #00000094;
+    }
+    a.about:active{
+      background-color: #000000e2;
+      transition: 0.4s;
+    color: white;
+  }
+    a.contact:hover{
+      background-color: #0b8686e2;
+      transition: 0.4s;
+      color: #00000094;
+      }
+      a.contact:active{
+        background-color: #000000e2;
+        transition: 0.4s;
+      color: white;
+    }
